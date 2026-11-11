@@ -1,0 +1,8 @@
+﻿name,formula,MW,LogP,HBD,HBA,TPSA,RotBonds,QED,Lipinski_violations,drug_like
+Aspirin 阿司匹林,C9H8O4,180.2,1.31,1,3,63.6,2,0.55,0,True
+Ibuprofen 布洛芬,C13H18O2,206.3,3.07,1,1,37.3,4,0.822,0,True
+Paracetamol 对乙酰氨基酚,C8H9NO2,151.2,1.35,2,2,49.3,1,0.595,0,True
+Caffeine 咖啡因,C8H10N4O2,194.2,-1.03,0,3,61.8,0,0.538,0,True
+Metformin 二甲双胍,C4H11N5,129.2,-1.03,4,2,89.0,0,0.249,0,True
+Penicillin G 青霉素G,C16H18N2O4S,334.4,0.86,2,4,86.7,4,0.798,0,True
+Atorvastatin 阿托伐他汀,C33H35FN2O5,558.7,6.31,4,4,111.8,12,0.163,2,False
