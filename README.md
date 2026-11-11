@@ -1,4 +1,4 @@
-# Virtual Lab 虚拟实验室
+﻿# Virtual Lab 虚拟实验室
 
 在电脑上做计算化学 / 药物 / 低空经济的模拟实验（in silico）。
 
@@ -11,6 +11,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 python chem/molecules/drug_properties.py
+streamlit run app.py          # 打开图形界面：溶液混合实验台
 ```
 
 ## 目录
@@ -29,3 +30,4 @@ python chem/molecules/drug_properties.py
 | 编号 | 实验 | 脚本 |
 |---|---|---|
 | 001 | 常见药物分子性质与 Lipinski 类药性分析 | `chem/molecules/drug_properties.py` |
+| 002 | 溶液混合实验台（酸碱/沉淀/中和热/滴定曲线） | `app.py` + `chem/solution_lab/engine.py` |
